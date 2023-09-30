@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* check this css selector */
+      /* it applies to every h1 tag inside a div which has a id of header  */
+      #header h1 {
+        text-align: center;
+      }
+      #nav {
+        display: flex;
+        justify-content: space-evenly;
+        width: 40rem;
+      }
+      /* targets all the child div of the div with id nav */
+      #nav div {
+        background-color: black;
+        color: white;
+        padding: 0.3rem; /* TRY OUT rem unit insted of px */
+      }
+      #nav p{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      #hero{
+        display: flex;
+        gap: 1rem; /* applies gap between all the child elements (alternate to applying margin to all the child elements) */
+        margin: 1rem;
+      }
+      #image{
+        display: flex; 
+        align-items: start;
+        gap: 1rem; /* applies gap between the images */
+      }
+      .text-content{
+        margin: 1rem;
+        padding: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div id="header">
+        <h1>WALL-E</h1>
+        <p>Walt Disney Studios Motion Picture|Release date : Jun 27,2008</p>
+      </div>
+      <div id="nav">
+        <div>Summary</div>
+        <div>Critic Reviews</div>
+        <div>User Reviews</div>
+        <div>Details and Credits</div>
+        <div>Trailer and Videos</div>
+      </div>
+      <div id="hero">
+        <div id="image">
+          <img src="WALL-E.jpg" alt="" />
+          <img src="94.png" alt="" />
+        </div>
+        <div>
+          <div>
+            <h1 class="text-content">Metascore</h1>
+            <h3 class="text-content">universal acclaim based on 39 Criics</h6>
+          </div>
+          <div>
+            <ul>
+              <li>Staring Ben Burtt, Elissa Knight, Jeff</li>
+              <li>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Accusamus cupiditate, deleniti at fuga, a numquam corrupti odit
+                voluptates fugit alias, perferendis voluptas explicabo. A,
+                obcaecati?
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
