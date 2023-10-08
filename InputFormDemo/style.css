@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+/* the css given to body is to center the container div */
+
+#container {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: orange;
+}
+    
+#input-div {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: lightgreen;
+  cursor: pointer;
+  margin-inline: 10px;
+}
+
+#display{
+    width:100%;
+    text-align:center;
+}
+
+input{
+    padding:10px
+}
+button{
+    background-color:pink;
+    /* border:none; */
+    margin:10px;
+    border-radius:10px;
+    cursor:pointer;
+}
